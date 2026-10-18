@@ -11,8 +11,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("db_logger")
 
 router = APIRouter(
-    prefix="/admins",
-    tags=["Admins"]
+    prefix="/admin",
+    tags=["Admin"]
 )
 
 # get all admin
