@@ -1,2 +1,4 @@
 .http
 .env
+
+api.http
